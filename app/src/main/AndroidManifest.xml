@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetCare"
+        tools:targetApi="31">
+
+        <!-- HomeActivity - Entry Point -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity  -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- MainActivity - For Fetching All Pets -->
+        <activity
+            android:name=".FetchAllActivity"
+            android:exported="true" />
+
+
+        <!-- AddPetActivity - For Adding New Pets -->
+        <activity
+            android:name=".AddPetActivity"
+            android:exported="true" />
+
+        <!-- SearchPetActivity - For Searching Pets -->
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+
+        <!-- UpdatePetActivity - For Updating Pets -->
+        <activity
+            android:name=".UpdatePetActivity"
+            android:exported="true" />
+
+        <!-- DeletePetActivity - For Deleting Pets -->
+        <activity
+            android:name=".DeletePetActivity"
+            android:exported="true" />
+
+        <!-- RecentlyVaccinatedActivity - For Last Vacinated Pets -->
+        <activity
+            android:name=".RecentlyVaccinatedActivity"
+            android:exported="true" />
+
+    </application>
+</manifest>

@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/pet_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Name" />
+
+    <EditText
+        android:id="@+id/pet_breed_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breed" />
+
+    <EditText
+        android:id="@+id/pet_age_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pet_vaccinated_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Vaccinated (Months)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pet_weight_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/pet_gender_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender" />
+
+    <Button
+        android:id="@+id/add_pet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Pet" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="goBackToHome" />
+
+</LinearLayout>

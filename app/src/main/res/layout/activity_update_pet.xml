@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pet name" />
+
+    <EditText
+        android:id="@+id/update_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pet breed" />
+
+    <EditText
+        android:id="@+id/update_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pet age" />
+
+    <EditText
+        android:id="@+id/update_vaccinated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter months since last vaccination" />
+
+    <EditText
+        android:id="@+id/update_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pet weight" />
+
+    <EditText
+        android:id="@+id/update_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pet gender" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Pet" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="goBackToHome" />
+</LinearLayout>

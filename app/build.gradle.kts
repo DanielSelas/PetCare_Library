@@ -42,7 +42,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    implementation(project(":PetCareLib"))
+    implementation(libs.petcare.library)
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
 

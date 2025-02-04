@@ -8,6 +8,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+petcare_library = "1.0.0"
 retrofit = "2.9.0"
 cronetEmbedded = "119.6045.31"
 
@@ -21,6 +22,7 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+petcare_library = { module = "com.github.DanielSelas:PetCare_Library", version.ref = "petcare_library" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 cronet-embedded = { group = "org.chromium.net", name = "cronet-embedded", version.ref = "cronetEmbedded" }
 
